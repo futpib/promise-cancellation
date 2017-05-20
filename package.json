@@ -1,0 +1,14 @@
+{
+  "name": "promise-cancellation",
+  "version": "1.0.0",
+  "description": "Nice cancellation for any Promise/A+ implementation",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  }
+}
