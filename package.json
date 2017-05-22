@@ -1,6 +1,6 @@
 {
   "name": "promise-cancellation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nice cancellation for any Promise/A+ implementation",
   "main": "index.js",
   "license": "MIT",
@@ -10,5 +10,8 @@
   },
   "scripts": {
     "test": "xo && ava"
+  },
+  "browserify": {
+    "transform": ["babelify"]
   }
 }
